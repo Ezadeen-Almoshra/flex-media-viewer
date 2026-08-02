@@ -4,6 +4,8 @@ A highly flexible, **dependency-free** Lightbox for React and Next.js.
 
 Supports images, PDFs, video, audio, and generic files — with zoom, rotate, fullscreen, keyboard/touch navigation, accessibility, and full render-prop customization.
 
+**Live demo:** [ezadeen-almoshra.github.io/flex-media-viewer](https://ezadeen-almoshra.github.io/flex-media-viewer/)
+
 - React 18+ / 19+
 - Next.js App Router & Pages Router
 - Vite / TypeScript

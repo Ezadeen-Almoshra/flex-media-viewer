@@ -2,8 +2,12 @@
   "name": "flex-media-viewer",
   "version": "1.0.0",
   "description": "A highly flexible, dependency-free Lightbox library for React and Next.js",
-  "author": "",
+  "author": "Ezadeen Almoshra <ezadeeeeen@gmail.com>",
   "license": "MIT",
+  "homepage": "https://ezadeen-almoshra.github.io/flex-media-viewer/",
+  "bugs": {
+    "url": "https://github.com/Ezadeen-Almoshra/flex-media-viewer/issues"
+  },
   "keywords": [
     "react",
     "lightbox",
@@ -17,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/example/flex-media-viewer.git"
+    "url": "git+https://github.com/Ezadeen-Almoshra/flex-media-viewer.git"
   },
   "type": "module",
   "main": "./dist/index.cjs",

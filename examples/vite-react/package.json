@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ezadeen-almoshra.github.io/flex-media-viewer/",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "build:pages": "tsc --noEmit && VITE_BASE=/flex-media-viewer/ vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build:pages",
+    "predeploy": "npm run build",
     "deploy": "GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=safe.directory GIT_CONFIG_VALUE_0=* gh-pages -d dist --nojekyll --dotfiles -r git@github.com:Ezadeen-Almoshra/flex-media-viewer.git"
   },
   "dependencies": {

@@ -8,7 +8,8 @@
     "build": "tsc --noEmit && vite build",
     "build:pages": "tsc --noEmit && VITE_BASE=/flex-media-viewer/ vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r git@github.com:Ezadeen-Almoshra/flex-media-viewer.git"
+    "predeploy": "npm run build:pages",
+    "deploy": "GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=safe.directory GIT_CONFIG_VALUE_0=* gh-pages -d dist --nojekyll --dotfiles -r git@github.com:Ezadeen-Almoshra/flex-media-viewer.git"
   },
   "dependencies": {
     "flex-media-viewer": "file:../..",
